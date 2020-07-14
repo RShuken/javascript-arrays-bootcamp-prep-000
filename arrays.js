@@ -17,20 +17,15 @@ function destructivelyAddElementToBeginningOfArray(array,element) {
 
 function addElementToEndOfArray(array,element) 
   {
-  return []
-  }
-
-
-/*
-function addElementToEndOfArray(array,element) 
-  {
-  
+  return [...array,element];
   }
 
 function destructivelyAddElementToEndOfArray(array,element) {
-  
+  array.push(element);
+  return array;
   }
-
+  
+/*
 function destructivelyAddElementToEndOfArray(array,element) {
   
   }
