@@ -30,9 +30,13 @@ function accessElementInArray(array,index)
   {
   return array[index];
   }
-  /*
+
 function destructivelyRemoveElementFromBeggingOfArray(array) {
-  
+  array.shift(0);
+  return array;
   }
   
-  */
+function removeElementFromBeginningOfArray(array) 
+  {
+    
+  }
