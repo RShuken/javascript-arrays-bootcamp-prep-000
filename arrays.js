@@ -31,7 +31,7 @@ function accessElementInArray(array,index)
   return array[index];
   }
 
-function destructivelyRemoveElementFromBeggingOfArray(array) {
+function destructivelyRemoveElementFromBeginningOfArray(array) {
   array.shift(0);
   return array;
   }
